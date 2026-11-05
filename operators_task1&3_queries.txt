@@ -1,0 +1,36 @@
+Lab 9 queries: 
+
+Task 1 - Boolean Expression: 
+103 ?- consult(['/Users/abraralkhalifa/Prolog/operators_boolean.pl']).
+true.
+
+104 ?- boolean(true, true, R);
+|    boolean(true, false, R);
+|    boolean(false, true, R);
+|    boolean(false, false, R).
+R = true ;
+R = false ;
+R = false ;
+R = true.
+
+
+Task 3 - Total and Average: 
+
+101 ?- consult(['/Users/abraralkhalifa/Prolog/operators_total&average.pl']).
+true.
+
+102 ?- calculate.
+Enter the first number: 16.
+Enter the second number: |: 81.
+Enter the third number: |: 3.
+Total = 100
+Average = 33.333333333333336
+true.
+
+103 ?- calculate.
+Enter the first number: 0.
+Enter the second number: |: 4.
+Enter the third number: |: 8.
+Total = 12
+Average = 4
+true.
